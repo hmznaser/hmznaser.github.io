@@ -614,7 +614,9 @@ div.desc {
 		 
 			text-align:left ; 
 		}
-		
+			 .site_footer li {
+		 padding-bottom: 12px;
+	 }
 @media only screen and (min-width: 600px){
 	 
 }
@@ -626,7 +628,22 @@ div.desc {
 	  grid-template-columns: repeat(1, 1fr);
 	  grid-column-gap: 25px;
 	  grid-row-gap: 25px;
+	 
 	 }
+	 
+	 .site_footer li {
+		 padding-bottom: 20px;
+	 }
+	 .site_footer a:hover  {
+    color: white;
+    text-decoration: underline;
+    }
+
+.site_footer li a{
+	 color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+	}
 }
 /* footer section end*/
 
