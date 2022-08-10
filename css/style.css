@@ -35,7 +35,7 @@ body   {
   padding: 0 20px;
    
    margin: 0 auto;
- max-width: 800px;
+   max-width: 1000px;
    
     height: 100%;
  
@@ -53,13 +53,7 @@ body   {
   margin-top: 20px;
 }
 
-.content-box {
-  padding: 0 20px;
-   
-   margin: 0 auto;
- max-width: 1000px;
  
-}
   /* grid float box start */
 .box {
    width: 23%;
