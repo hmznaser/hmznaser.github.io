@@ -1,133 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <!-- Hamzeh Naser Alzoubei - 16 July 2022 -->
-  
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
-   <link rel="icon" type="image/x-icon" href="./images/Dimmy.ico" />
+
 	
     <title>Home</title>
-          <link rel="stylesheet" href="./css/style.css" />
+       <link rel="stylesheet" href="./css/style.css" />
   </head>
-<body>
+  <body>
+
 
  
-	<div class="header">
-
-	  <h1>Hamzeh Naser</h1>
-	    <p></p>
-	  <h3 style="color: DeepSkyBlue;">Email: Hamzehnas@gmail.com</h3>
-	  <p style="letter-spacing: 2px;color: #ff5500">  <img src="./images/fluidicon.png" width="20" height="20"   /> github.com/hmznaser</p> 
-	  
- 	  
-	 
-	  <p>   screenshots , images, videos   </p>
-	  <p id="target">rainbow </p>
-	</div>
  
+  <nav class="navbar">
+        <div  id="toggleBtn"  >
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+		     <a href="#">
+		        <img class="primary-icon" src="./images/hamooz.png" />
+		     </a>
+		<ul class="nav-list" id="navi-list">
+		  <li class="list-item"><a href="index.html">Home  </a></li>
+		    <li class="list-item"><a href="car_images_one_column.html"> Learn </a></li>
+		  <li class="list-item"><a href="car_images.html">blog</a></li>
+		  <li class="list-item"><a href="car_images.html">Forums</a></li>
  
-
-	<div class="content">
-
-	   <ul class="breadcrumb">
-		  <li ><a href="#"> Home</a></li>
-  
 		</ul>
-		
-		 <h1 class="headline">Category</h1>
-		 <div class="row">
-		  
-		 <div class="clearfix">
-				  
-			<div class="box">
-			  <a  href="spring_framework_a02.html">	
+ </nav>
+	 <div class="wrapper">
+	  <div class="left-sidebar" id="sidebar">
+		 
+			<ul class="b">
+			  <li><a href="x1.html">Home</a></li>
+			  <li><a href="x2.html">Learn </a></li>
+			    <li><a href="x3.html">Blog </a></li>
+			  <li><a href="x4.html">Forums</a></li>
+			</ul>
+	 
+	  </div>
+	 	 <div class="overlay hidden" id="overlay"></div>
+	</div>
+	
+	 <nav class="tabs-container-mobile visible-xs col-xs-12">
+      <ul>
+        <li class="shop active"><a  href="index.html">home</a></li>
+        <li class="learn "><a  href="car_images.html">Learn</a></li>
+        <li class="blog "><a  href="art.html">Blog</a></li>
+        <li class="services "><a href="image_item.html">Forums</a></li>
+      </ul>
+    </nav>
+	<!-- end header section -->
+	
+<div class="row">
+ 
+  <div class="leftHandSide"> 
+    <div class="card">
+		<ul class="subjects">
+	         	<li class="selected"><a href="index.html">Home page</a></li>
+ 
+			  
+			  <li><a href="index.html">Programming</a>
+		          <ul class="pages"> <!-- sub-category -->
+				  	 <li><a href="spring_framework_a01.html">Spring Framework  </a></li>
+				      <li><a href="servlet_jsp.html">Servlets / jsp </a></li>
+					 <li><a href="java_core.html">Java core</a></li>
+					 <li><a href="android.html">Android</a></li>
+                     <li><a href="responsive_table.html">Responsive Table</a></li>
+					 
+				 </ul>
+			</li>	
+		     <li ><a href="electronics_grid.html">Electronics   </a></li>
+				 <li><a href="abu_dhabi.html">Abu Dhabi</a></li>
+				  <li><a href="games.html">Games</a></li>
+				 <li><a href="about.html">About</a></li>
+		</ul>  
+ 
+    </div>
+  </div> <!-- leftHandSide end 20-07-2022 -->
+  
+    <div class="rightHandSide">
+    <div class="card">
+	 
+      <h2 class="padding_header">Home</h2>
+ 
+ 
+     	<div class="item">
+			  <a  href="spring_framework_a01.html">	
 			   <div class="gallery">
-				  <img src='./images/spring_framework.png'    alt="spring_framework_a02"/>
-				  <div class="content-card">Spring Framework</div>
+				  <img src='./images/spring_framework.png'    alt="spring_framework_a01"/>
+				  <div class="desc">Spring Framework</div>
 			  </div>
 			  </a>
 	        </div>
-			 	 <div class="box">
-			  <a  href="java.html">	
+			 	 <div class="item">
+			  <a  href="servlet_jsp.html">	
 			   <div class="gallery">
 				  <img src='./images/servlets_jsp.png'    alt="servlets jsp"/>
-				  <div class="content-card"> Servlets jsp </div>
+				  <div class="desc"> Servlets  jsp  </div>
 			  </div>
 			  </a>
 	        </div>
-		  	 <div class="box">
-			  <a  href="java.html">	
+		  	 <div class="item">
+			  <a  href="java_core.html">	
 			   <div class="gallery">
 				  <img src='./images/java.png'    alt="java"/>
-				  <div class="content-card"> core Java </div>
+				  <div class="desc">java</div>
 			  </div>
 			  </a>
 	        </div>
-			<div class="box">
+			 <div class="item">
+			  <a  href="android.html">	
+			   <div class="gallery">
+				  <img src='./images/android.png'    alt="java"/>
+				  <div class="desc">Android</div>
+			  </div>
+			  </a>
+	        </div>
+		 
+		 	<div class="item">
 			  <a  href="abu_dhabi.html">	
 			   <div class="gallery">
-				  <img src='./images/abudhabi_06.jpg'    alt="abu dhabi Volcano fountain "/>
-				  <div class="content-card">Abu Dhabi  </div>
+				  <img src='./images/abudhabi_06.jpg'    alt="projects"/>
+				  <div class="desc"> Abu Dhabi</div>
 			  </div>
 			  </a>
 	        </div>
-			
-		 <div class="box">
-			  <a  href="#.html">	
+		  	<div class="item">
+			  <a  href="games.html">	
 			   <div class="gallery">
-				  <img src='./images/'    alt="abu dhabi Volcano fountain "/>
-				  <div class="content-card">Animals  </div>
-			  </div>
-			  </a>
-	        </div><div class="box">
-			  <a  href="#.html">	
-			   <div class="gallery">
-				  <img src='./images/Street_Fighter_II.png'    alt="Street_Fighter_II"/>
-				  <div class="content-card">Games </div>
+				  <img src='./images/games_01.png'    alt="projects"/>
+				  <div class="desc"> Games</div>
 			  </div>
 			  </a>
 	        </div>
-		 
-		 
-			<div class="box">
+		 	<div class="item">
 			  <a  href="electronics/index.html">	
 			   <div class="gallery">
-				  <img src='./images/8bit_computer2.jpg'    alt="electronics"/>
-				  <div class="content-card">  Electronics  </div>
+				  <img src='./images/electronics.png'    alt="projects"/>
+				  <div class="desc"> Electronics</div>
 			  </div>
 			  </a>
 	        </div>
-		 	 
-		 </div>
-		 
-		</div>
-		 <div class="pagination">
-				<ul>
-					<li class="active numbered-page">
-						<a href="#">1</a>
-					</li>
-					<li class=" numbered-page">
-						<a rel="next" href="/u/simonmonk?guide_page=2&amp;total_count=53&amp;total_verbiage=total+series">2</a>
-					</li>
-					<li class=" numbered-page">
-						<a href="/u/simonmonk?guide_page=3&amp;total_count=53&amp;total_verbiage=total+series">3</a>
-					</li>
-					<li>
-						<a rel="next" href="/u/simonmonk?guide_page=2&amp;total_count=53&amp;total_verbiage=total+series">Next</a>
-					</li>
-					<li class="last-page">
-						<a href="/u/simonmonk?guide_page=3&amp;total_count=53&amp;total_verbiage=total+series">Last</a>
-					</li>
-			 
-				</ul>
-		</div>
-	</div>
- 	   <div class="footer">
-		  <h2>  Hamzeh Naser</h2>
-		</div>
-		 <script src="./js/script.js"></script>
+		 			
+ 
+    </div>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Hamzeh Naser 01 Dec 2022</h2>
+</div>
+		<script src="./js/script.js"></script>
 </body>
 </html>
+
+
