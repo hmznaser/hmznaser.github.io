@@ -1,0 +1,111 @@
+.content {
+ 
+    margin: 50px auto 20px;
+    max-width: 1000px;
+   
+    height: 100%;
+ 
+    overflow: auto;
+    min-height: calc(100vh - 250px);
+    justify-content: center;
+	
+}
+
+.Table {
+  display: flex;
+  flex-flow: column nowrap;
+	justify-content: space-between;
+  font-family: BWHaasGrotesk-55Roman-Web,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem;
+  line-height: 1.5;
+}
+.Table-header {
+  display: none;
+}
+.Table-row {
+  width: 100%;
+}
+.Table-row:nth-of-type(even) {
+  background-color: white;
+}
+.Table-row-item {
+  display: flex;
+	flex-flow: row nowrap;
+	flex-grow: 1;
+	flex-basis: 0;
+  padding: 0.5em;
+  word-break: break-word;
+  
+}
+.Table-row-item:before {
+  content: attr(data-header);
+  width: 30%;
+  font-weight: 700;
+}
+ .Table-row-item[data-type*=worse]  .data-table-row-cell__value  {
+    padding: 2px;
+    background-color: #ffe1e1;
+}
+
+  .Table-row-item[data-type*=better] .data-table-row-cell__value    {
+    padding: 3px;
+    background-color: #9cf4dc;
+}
+@media (min-width: 500px) {
+  .Table-header {
+    font-weight: bold;
+	font-size: .8em;
+  }
+	.Table-row {
+    display: flex;
+	  flex-flow: row nowrap;
+  }
+	
+  .Table-row:nth-child(2n+3) {
+    background-color: #fff;
+  }
+
+	.Table-row-item {
+    border: 1px solid #fff;
+    padding: 0.5em;
+  }
+  .Table-row-item:before {
+    content: none;
+  }
+}
+
+
+  .table-container:before {
+    overflow: hidden;
+    text-indent: -9999rem;
+    font-size: 0;
+    line-height: 0;
+    content: "pattern dots";
+    height: 1.25rem;
+    width: 100%;
+    display: block;
+}
+
+ .table-container:before {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFUlEQVQIW2P83Sf3n7XoESMjAxQAADjFBAPqoJzEAAAAAElFTkSuQmCC) repeat;
+}
+.table-container .data-table-row {
+    border-bottom: 0.0625rem #999 dotted;
+}
+
+.table-container .data-table-headers {
+    border-bottom: 0.0625rem #ccc solid;
+    text-transform: uppercase;
+    font-family: BWHaasGrotesk-55Roman-Web,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+ 
+}
+
+  .table-container a.data-table-row-cell__link    {
+    color: #000;
+    text-decoration: none;
+}
+a.data-table-row-cell__link:hover{
+	  text-decoration: underline;
+}
