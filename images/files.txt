@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 8bit_computer2.jpg
 a2.jpg
 abudhabi_01.jpg
@@ -104,4 +103,3 @@ spring_framework.png
 street_fighter_01.png
 tomcat.png
 workspace_spring_framework.png
->>>>>>> 1ed7f42dbc4fb5b0f0ab192d7328c609c3e3a3e8
