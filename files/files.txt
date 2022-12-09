@@ -7,9 +7,3 @@ Ostrichslug.gif
 Sonic_Advance_3_Ending.png
 Sonic_Art_Assets.png
 camel.gif
-file1.txt
-Create file1.txt
-limur2.jpg
-list_forest_animals.txt
-sonic1.png
-species.txt
