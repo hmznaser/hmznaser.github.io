@@ -1,0 +1,27 @@
+All groups		2,130,023
+Amphibians		8,395
+Arachnids		110,615
+Birds			11,162
+Brown algae		4,381
+Corals			5,610
+Crustaceans		80,122
+Ferns and Allies	11,800
+Fishes			36,058
+Flowering plants	369,000
+Fungi and protists	141,381
+Green algae		12,090
+Gymnosperms		1,113
+Horseshoe crabs		4
+Insects			1,053,578
+Invertebrates		1,491,386
+Lichens			17,000
+Mammals			6,578
+Molluscs		83,706
+Mosses			21,925
+Mushrooms		120,000
+Other invertebrates	157,543
+Plants			423,373
+Red algae		7,445
+Reptiles		11,690
+Velvet worms		208
+Vertebrates		73,883
