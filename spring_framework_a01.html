@@ -8,6 +8,10 @@
 	
     <title>Home</title>
        <link rel="stylesheet" href="./css/style.css" />
+	   <style>
+  
+ 
+	   </style>
   </head>
   <body>
 
@@ -96,6 +100,19 @@
 					  <div class="text">
 				       <a class="guide_link bold blue link-darken antialiased" href="/guides/gs/rest-service/">Accessing data with MySQL</a>
 					   <p class="m-0">Learn how to set up and manage user accounts on MySQL and how to configure Spring Boot to connect to it at runtime.</p>
+		 
+       
+		   <h4>image 1</h4>
+           <a href=""><img class="col" src="./images/Accessing_data_Mysql_JPA3_01.png" alt="microservices" width="500"  >  </a>
+	  
+	   
+	     <h4>image 2</h4>
+           <a href=""><img class="col" src="./images/Accessing_data_Mysql_JPA3_02.png" alt="microservices" width="600"  >  </a>
+	   
+	    <h4>image 3</h4>
+           <a href=""><img class="col" src="./images/Accessing_data_Mysql_JPA3_03.png" alt="microservices" width="500"  >  </a>
+	   
+	 
 					 </div>
 					     <div class="text">
 				       <a class="guide_link bold blue link-darken antialiased" href="/guides/gs/rest-service/">Building a RESTful Web Service</a>
@@ -131,7 +148,25 @@
 		<div class="footer">
 		  <h2>Footer</h2>
 		</div>
-<script src="cordova.js"></script>
+ <script>
+ $(document).ready(function() {
+
+	$('a.btn-gallery').on('click', function(event) {
+		event.preventDefault();
+		
+		var gallery = $(this).attr('href');
+    
+		$(gallery).magnificPopup({
+      delegate: 'a',
+			type:'image',
+			gallery: {
+				enabled: true
+			}
+		}).magnificPopup('open');
+	});
+	
+});
+ </script>
 <script src="js/index.js"></script>
 </body>
 </html>
