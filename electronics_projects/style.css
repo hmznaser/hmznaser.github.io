@@ -68,8 +68,8 @@ div.box:hover {
    
 }
  .content {
-   border-left: 1px solid #b9b9b9;
-	  border-right: 1px solid #b9b9b9;
+   border-left: 1px solid #efefef;
+	  border-right: 1px solid #efefef;
 	  max-width: 800px;
 	   margin: auto;
 	  background: white;
