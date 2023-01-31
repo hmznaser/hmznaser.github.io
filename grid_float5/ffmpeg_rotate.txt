@@ -1,0 +1,15 @@
+Rotate 90 clockwise:
+
+ffmpeg -i in.mov -vf "transpose=1" out.mov
+
+For the transpose parameter you can pass:
+
+0 = 90CounterCLockwise and Vertical Flip (default)
+1 = 90Clockwise
+2 = 90CounterClockwise
+3 = 90Clockwise and Vertical Flip
+
+Use -vf "transpose=2,transpose=2" for 180 degrees.
+
+---------------------------------------------------------
+ffmpeg -i VID_20181012_132022.mp4 -vf "transpose=dir=1:passthrough=portrait" -c:v libx264 -crf 19 -strict experimental video8bit_a2.mp4
