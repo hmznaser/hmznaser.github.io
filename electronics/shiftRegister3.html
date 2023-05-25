@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
 	
     <title>Navigation</title>
     <link rel="stylesheet" href="./css/style.css" />
@@ -80,11 +97,12 @@
 		
 		
 		<h2>  Shift Register with   XOR    </h2>
-         <div class="build-video">
-		    <div class="fluid-width-video-wrapper" style="padding-top: 56.5%;">
-		          <iframe src="./images/shift_register.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0"></iframe>
-		     </div>
-		 </div>	
+	 	  <div class="embed-container">
+		    <iframe width="640" height="390" 
+		    src="./images/shift_register.mp4" 
+		    frameborder="0" allowfullscreen></iframe>
+		</div>
+          
    </div>
  
   </div>
