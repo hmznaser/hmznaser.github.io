@@ -4,73 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
 	
-    <title>Navigation</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mototcycle</title>
+    <link rel="stylesheet" href="./css/style_2.css" />
   </head>
   <body>
-
-  <nav class="navbar">
+   <nav class="navbar">
         <div  id="toggleBtn"  >
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
 		</div>
-		     <a href="#">
+		     <a href="index.html">
 		        <img class="primary-icon" src="./images/hamooz.png" />
 		     </a>
 		<ul class="nav-list" id="navi-list">
 		  <li class="list-item"><a href="index.html">Home </a></li>
-		    <li class="list-item"><a href="car_images_one_column.html"> Cars 1 </a></li>
-		  <li class="list-item"><a href="car_images.html">Cars 2</a></li>
+		  	  <li class="list-item"><a href="car_images_one_column.html"> one column </a></li>
+		  <li class="list-item"><a href="car_images.html">car images</a></li>
 		    <li class="list-item"><a href="art.html">Art</a></li>
-		  <li class="list-item"><a href="image_item.html">  items</a></li>
+		  <li class="list-item"><a href="image_item.html">image items</a></li>
 		</ul>
  </nav>
  	 <div class="wrapper">
 	  <div class="left-sidebar" id="sidebar">
 		 
 			<ul class="b">
-			  <li><a href="car_images_one_column.html.html">Cars 1</a></li>
-			  <li><a href="car_images.html">Cars 2</a></li>
-			    <li><a href="art.html">Art</a></li>
-			  <li><a href="image_item.html">items</a></li>
+			  <li><a href="a.html">Learn</a></li>
+			  <li><a href="a.html">Tools</a></li>
+			  <li><a href="a.html">Guide</a></li>
 			</ul>
 	 
 	  </div>
 	 	 <div class="overlay hidden" id="overlay"></div>
 	</div>
 
- 	 <nav class="tabs-container-mobile visible-xs col-xs-12">
-      <ul>
-        <li class="shop active"><a  href="index.html">home</a></li>
-        <li class="learn "><a  href="car_images.html">Cars 2</a></li>
-        <li class="blog "><a  href="art.html">Art</a></li>
-        <li class="services "><a href="image_item.html">items</a></li>
-      </ul>
-    </nav>
-
 <div class="row">
+ <div class="column side"  > 
  
+ 
+ 
+ 
+ 
+ 
+  </div>
   <div class="column middle"  >
-   <div class="content" style="margin-left: 250px">
-		<h1> motorcycle </h1>
+   <div class="content">
+    
+	    <ul class="breadcrumb">
+		  <li><a href="index.html">Home</a></li>
+		  <li>motorcycle</li>
+		</ul>
  
-          <video preload="auto" muted="muted" loop="loop" autoplay="autoplay" class="videoBox" >
-			  <source src="./images/motorcycle.mp4" type="video/mp4">
+		<h2>  Motorcycle training day (1) (2021) Irbid - Jordan   </h2>
+            <div class="videoBox">
+		               <video autoplay loop muted="false" class="videobox" >    
+							<source src="./images/motorcycle.mp4" type="video/mp4" />    
+						</video> 
+		    </div>
+	   	 
  
-			</video>
+	 
    </div>
  
   </div>
+  <div class="column side"  >
+  <div class="right_sidebar">
  
+	 
+  </div>
+  
+  </div>
 </div>
-
-    
-		 <script src="/js/script.js"></script>
-		 <script src="cordova.js"></script>
-	    <script src="js/index.js"></script>
+      <div class="site_footer">
+      <ul class="footer_contianer">
+		   <h4>Hamzeh Naser</h4>
+		   <li>  <a href="url">About</a></li>
+		   <li>	<a href="url">Contact Information</a></li>
+		   <li>	<a href="url">Questions</a></li>
+		  
+	   </ul>
+ 
+	   </div>
+		 <script src="./js/script.js"></script>
 </body>
 </html>
-
