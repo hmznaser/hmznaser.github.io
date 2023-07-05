@@ -1,25 +1,143 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>lcd screen</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+    <title>Navigation</title>
     <link rel="stylesheet" href="./css/style.css" />
-</head>
-<body>
+  </head>
+  <body>
+   <nav class="navbar">
+        <div  id="toggleBtn"  >
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+		     <a href="index.html">
+		        <img class="primary-icon" src="./images/hamooz.png" />
+		     </a>
+		<ul class="nav-list" id="navi-list">
+		  <li class="list-item"><a href="index.html">Home </a></li>
+		  	  <li class="list-item"><a href="car_images_one_column.html"> one column </a></li>
+		  <li class="list-item"><a href="car_images.html">car images</a></li>
+		    <li class="list-item"><a href="art.html">Art</a></li>
+		  <li class="list-item"><a href="image_item.html">image items</a></li>
+		</ul>
+ </nav>
+ 	 <div class="wrapper">
+	  <div class="left-sidebar" id="sidebar">
+		 
+			<ul class="b">
+			  <li><a href="a.html">Learn</a></li>
+			  <li><a href="a.html">Tools</a></li>
+			  <li><a href="a.html">Guide</a></li>
+			</ul>
+	 
+	  </div>
+	 	 <div class="overlay hidden" id="overlay"></div>
+	</div>
 
-
-   <div class="content">
+<div class="row">
+ <div class="column side"  > 
+  <div class="left-wrapper">
+	  <div class="image-container">
+		<img   alt="8-bit computer "  
+		src="./images/knight-rider-leds_a2.jpg"  >
+	  </div>
+	  
+      <h1> Knight Rider     </h1>
+		 <ul class="page-parent"  >
+			<li class="parent active">
+				<a href="#overview" class="published">Overview</a>
+			</li>
+			<li class="parent ">
+				<a href="#hardware" class="published">Hardware</a>
+			</li>
+			<li class="parent ">
+				<a href="#circuitpython" class="published"> Python</a>
+			</li>
+			<li class="parent ">
+				<a href="#arduino" class="published">Arduino</a>
+			</li>
+		</ul>
+    </div><!-- end left  wrapper> -->
  
-    
-		 <h2>  blinking_LED    2-5-7-9 prime numbers   </h2>
+ 
+ 
+ 
+ 
+  </div>
+  <div class="column middle"  >
+   <div class="content">
+    <ul class="breadcrumb">
+		  <li><a href="index.html">Electronics</a></li>
+		  <li> Blinking LED </li>
+		</ul>
+		<h2>  Blinking LED  using transistors </h2>
             <div class="videoBox">
 		    
 		               <video autoplay loop muted="true" class="videobox" >    
 							<source src="./images/Blinking LED circuit BC547 and BC557.mp4" type="video/mp4" />    
 						</video> 
 		    </div>
-		   
-	 </div>
+		  	
+   </div>
  
+  </div>
+  <div class="column side"  >
+  <div class="right_sidebar">
+   <h2> Right sidebar   </h2>
+      <div class="right-wrapper">
+				 
+					<img  src="./images/Knight Rider schematic Diuagram_a2.jpg" alt=" diagram  "   >
+				 
+				<div class="product-details">
+					<a href="#">
+						<div class="product-title">diagram</div>
+					</a> 
+				</div>
+       </div>
+	      <div class="right-wrapper">
+				 
+					<img  src="./images/knight-rider-leds_a4.jpg" alt=" diagram  "   >
+				 
+				<div class="product-details">
+					<a href="#">
+						<div class="product-title">blinking LED</div>
+					</a> 
+				</div>
+       </div>
+	       <div class="right-wrapper">
+				 
+					<img  src="./images/knight-rider-leds_a5.jpg" alt=" diagram  "   >
+				 
+				<div class="product-details">
+					<a href="#">
+						<div class="product-title">Blinking LED</div>
+					</a> 
+				</div>
+       </div>
+	  
+	  <h3> End right sidebar   </h3>
+  </div>
+  
+  </div>
+</div>
+
+      <div class="site_footer">
+      <ul class="footer_contianer">
+		   <h4>Hamzeh Naser</h4>
+		   <li>  <a href="url">About</a></li>
+		   <li>	<a href="url">Contact Information</a></li>
+		   <li>	<a href="url">Questions</a></li>
+		  
+	   </ul>
+ 
+	   </div>
+		 <script src="./js/script.js"></script>
 </body>
 </html>
+

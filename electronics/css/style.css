@@ -104,13 +104,13 @@ div.box:hover {
  
  
  
- 
+ /*
 video::-webkit-media-controls { 
  
   display:inline-block;
  
 }
- 
+ */
 /*  end video section */
 
 /* header section */
@@ -474,6 +474,10 @@ ul.b {
 @media (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
+	
+  }
+  .column.middle {
+  padding:10px 10px;
   }
 }
 
@@ -1415,7 +1419,7 @@ ul.breadcrumb {
  }
  
 ul.breadcrumb > li:first-child{
-   background: transparent url('../images/sqpurple.gif') 0 0 no-repeat;
+  #  background: transparent url('../images/sqpurple.gif') 0 0 no-repeat;
     padding-left: 30px;
  }
  
