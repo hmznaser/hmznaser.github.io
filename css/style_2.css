@@ -987,15 +987,16 @@ div.desc {
   video.videobox{
 	  	width: 100%;
 		height: 500px;
+		 
 	    border-radius: 4px;
 		padding-right: 100px;
   }
-  @media screen and (min-width: 1200px){
-	.videobox{
-	 width: 100%;
-	 height: 100%;
-	 margin: 20px;
-     }  
+  @media screen and (max-width: 1200px){
+	  .videobox {
+	    border: 2px solid #eeeeee;
+		
+	   margin-left: 50px;
+     }
   }
   
  
