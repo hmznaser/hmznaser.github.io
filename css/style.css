@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*  4_blog_github_4  23, July, 2022*/
 * {
   box-sizing: border-box;
@@ -71,8 +71,7 @@ body {
 }
  
  .card img {
-   width: 50%;
-   height: 50%;
+  
  }
 
 /* Clear floats after the columns */
@@ -176,7 +175,21 @@ body {
 .navbar a:hover {
 	color: #aaa;
 }
-
+ @media screen and (max-width: 600px) {
+	 .list_items li a{
+     font-size: 1.2em;
+		 
+   }
+   	 .list_items li li a{
+     font-size: 1.1em;
+	 
+   }
+ }
+  .list_items li{
+     padding-bottom: 10px;
+		 
+   }
+   
  @media screen and (max-width: 600px) {
 	.navbar{
 		padding: 0;
@@ -204,14 +217,14 @@ body {
   }
   
   .nav-list .list-item {
-	   display: block;
+	 display: block;
 	  border-bottom: 1px solid #999;
 	 margin-left: 240px;
 	 width:85%;
 	 padding:10px;
 	
   }
-  
+
   .primary-icon{
 	  padding-left: 10px;
 	  margin-top: 10px;
@@ -598,7 +611,9 @@ a.bold {
 a.blue {
     color: #086dc3;
 }
-
+a.size{
+	 
+}
 .text{
 	border-top: 1px solid rgb(235, 242, 242);
     padding-top: 20px;
@@ -2663,5 +2678,13 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
->>>>>>> b16c27e40df66c6f3ac1a9a274ed9fbe478e27a9
+ 
 /* breadcrumb end */
+
+/**/
+  .why_spring{
+     font-family: Metropolis,sans-serif;
+     font-weight: 500;
+     line-height: 1.9rem;
+      max-width: 800px;
+  }
